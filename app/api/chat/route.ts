@@ -53,9 +53,8 @@ ${JSON.stringify(dataSlice, null, 2)}`;
     });
   } catch (err) {
     console.error("[/api/chat] error:", err);
-    const message = err instanceof Error ? err.message : String(err);
     return NextResponse.json(
-      { error: "Erro interno ao processar a pergunta.", detail: message },
+      { error: "Erro interno ao processar a pergunta." },
       { status: 500 }
     );
   }
