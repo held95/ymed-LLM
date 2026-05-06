@@ -1,0 +1,1151 @@
+{
+  "summary": {
+    "total_products": 50,
+    "total_revenue_2025": 3779441.8,
+    "total_units_2025": 362823,
+    "avg_price_brl": 11.7,
+    "avg_ph": 5.86
+  },
+  "forecast_by_category": {
+    "sabonete": {
+      "history": [
+        9984,
+        8587,
+        8622,
+        9690,
+        11217,
+        13947,
+        15339,
+        15795,
+        14965,
+        15577,
+        16175,
+        16378
+      ],
+      "forecast": [
+        16906,
+        17434,
+        17962
+      ],
+      "months_history": [
+        "Jan/25",
+        "Fev/25",
+        "Mar/25",
+        "Abr/25",
+        "Mai/25",
+        "Jun/25",
+        "Jul/25",
+        "Ago/25",
+        "Set/25",
+        "Out/25",
+        "Nov/25",
+        "Dez/25"
+      ],
+      "months_forecast": [
+        "Jan/26",
+        "Fev/26",
+        "Mar/26"
+      ]
+    },
+    "shampoo": {
+      "history": [
+        6077,
+        5259,
+        5212,
+        5819,
+        6636,
+        7961,
+        8091,
+        8716,
+        9188,
+        9471,
+        9211,
+        8910
+      ],
+      "forecast": [
+        9043,
+        9168,
+        9286
+      ],
+      "months_history": [
+        "Jan/25",
+        "Fev/25",
+        "Mar/25",
+        "Abr/25",
+        "Mai/25",
+        "Jun/25",
+        "Jul/25",
+        "Ago/25",
+        "Set/25",
+        "Out/25",
+        "Nov/25",
+        "Dez/25"
+      ],
+      "months_forecast": [
+        "Jan/26",
+        "Fev/26",
+        "Mar/26"
+      ]
+    },
+    "detergente": {
+      "history": [
+        9330,
+        7342,
+        6928,
+        6837,
+        7889,
+        9270,
+        11135,
+        11856,
+        11476,
+        11808,
+        11321,
+        10804
+      ],
+      "forecast": [
+        10802,
+        10801,
+        10799
+      ],
+      "months_history": [
+        "Jan/25",
+        "Fev/25",
+        "Mar/25",
+        "Abr/25",
+        "Mai/25",
+        "Jun/25",
+        "Jul/25",
+        "Ago/25",
+        "Set/25",
+        "Out/25",
+        "Nov/25",
+        "Dez/25"
+      ],
+      "months_forecast": [
+        "Jan/26",
+        "Fev/26",
+        "Mar/26"
+      ]
+    }
+  },
+  "abc_classification": [
+    {
+      "product_id": "P028",
+      "name": "YMED Anticaspa Intensivo 400ml",
+      "category": "shampoo",
+      "abc_class": "A",
+      "total_revenue_2025": 216032.4,
+      "revenue_share_pct": 5.72
+    },
+    {
+      "product_id": "P022",
+      "name": "YMED Anticaspa Hortelã 400ml",
+      "category": "shampoo",
+      "abc_class": "A",
+      "total_revenue_2025": 146588.4,
+      "revenue_share_pct": 3.88
+    },
+    {
+      "product_id": "P042",
+      "name": "YMED Limão Concentrado 1000ml",
+      "category": "detergente",
+      "abc_class": "A",
+      "total_revenue_2025": 123377.1,
+      "revenue_share_pct": 3.26
+    },
+    {
+      "product_id": "P019",
+      "name": "YMED Coco Hidratante 200g",
+      "category": "sabonete",
+      "abc_class": "A",
+      "total_revenue_2025": 122796.1,
+      "revenue_share_pct": 3.25
+    },
+    {
+      "product_id": "P032",
+      "name": "YMED Aloe Vera Hidratação 250ml",
+      "category": "shampoo",
+      "abc_class": "A",
+      "total_revenue_2025": 115422.3,
+      "revenue_share_pct": 3.05
+    },
+    {
+      "product_id": "P048",
+      "name": "YMED Antibacteriano Limão 1000ml",
+      "category": "detergente",
+      "abc_class": "A",
+      "total_revenue_2025": 112502.6,
+      "revenue_share_pct": 2.98
+    },
+    {
+      "product_id": "P026",
+      "name": "YMED Rosa Brilho 400ml",
+      "category": "shampoo",
+      "abc_class": "A",
+      "total_revenue_2025": 112107.7,
+      "revenue_share_pct": 2.97
+    },
+    {
+      "product_id": "P024",
+      "name": "YMED Sem Sal Aloe Vera 250ml",
+      "category": "shampoo",
+      "abc_class": "A",
+      "total_revenue_2025": 107172.0,
+      "revenue_share_pct": 2.84
+    },
+    {
+      "product_id": "P005",
+      "name": "YMED Camomila Suave 200g",
+      "category": "sabonete",
+      "abc_class": "A",
+      "total_revenue_2025": 103257.0,
+      "revenue_share_pct": 2.73
+    },
+    {
+      "product_id": "P046",
+      "name": "YMED Limão Premium 1000ml",
+      "category": "detergente",
+      "abc_class": "A",
+      "total_revenue_2025": 93679.8,
+      "revenue_share_pct": 2.48
+    },
+    {
+      "product_id": "P035",
+      "name": "YMED Sem Sal Lavanda 250ml",
+      "category": "shampoo",
+      "abc_class": "A",
+      "total_revenue_2025": 90935.9,
+      "revenue_share_pct": 2.41
+    },
+    {
+      "product_id": "P025",
+      "name": "YMED Camomila Suave 300ml",
+      "category": "shampoo",
+      "abc_class": "A",
+      "total_revenue_2025": 89919.1,
+      "revenue_share_pct": 2.38
+    },
+    {
+      "product_id": "P021",
+      "name": "YMED Lavanda Hidratação 300ml",
+      "category": "shampoo",
+      "abc_class": "A",
+      "total_revenue_2025": 88029.2,
+      "revenue_share_pct": 2.33
+    },
+    {
+      "product_id": "P044",
+      "name": "YMED Neutro Concentrado 1000ml",
+      "category": "detergente",
+      "abc_class": "A",
+      "total_revenue_2025": 86823.0,
+      "revenue_share_pct": 2.3
+    },
+    {
+      "product_id": "P016",
+      "name": "YMED Aloe Vera Premium 200g",
+      "category": "sabonete",
+      "abc_class": "A",
+      "total_revenue_2025": 83171.8,
+      "revenue_share_pct": 2.2
+    },
+    {
+      "product_id": "P029",
+      "name": "YMED Erva-Doce Volume 300ml",
+      "category": "shampoo",
+      "abc_class": "A",
+      "total_revenue_2025": 81153.8,
+      "revenue_share_pct": 2.15
+    },
+    {
+      "product_id": "P030",
+      "name": "YMED Coco Premium 400ml",
+      "category": "shampoo",
+      "abc_class": "A",
+      "total_revenue_2025": 79904.1,
+      "revenue_share_pct": 2.11
+    },
+    {
+      "product_id": "P039",
+      "name": "YMED Neutro 500ml",
+      "category": "detergente",
+      "abc_class": "A",
+      "total_revenue_2025": 79408.1,
+      "revenue_share_pct": 2.1
+    },
+    {
+      "product_id": "P040",
+      "name": "YMED Limão 500ml",
+      "category": "detergente",
+      "abc_class": "A",
+      "total_revenue_2025": 78182.0,
+      "revenue_share_pct": 2.07
+    },
+    {
+      "product_id": "P031",
+      "name": "YMED Lavanda Reconstrução 300ml",
+      "category": "shampoo",
+      "abc_class": "A",
+      "total_revenue_2025": 75858.8,
+      "revenue_share_pct": 2.01
+    },
+    {
+      "product_id": "P043",
+      "name": "YMED Antibacteriano 500ml",
+      "category": "detergente",
+      "abc_class": "A",
+      "total_revenue_2025": 75247.5,
+      "revenue_share_pct": 1.99
+    },
+    {
+      "product_id": "P049",
+      "name": "YMED Biodegradável Lavanda 500ml",
+      "category": "detergente",
+      "abc_class": "A",
+      "total_revenue_2025": 74995.5,
+      "revenue_share_pct": 1.98
+    },
+    {
+      "product_id": "P023",
+      "name": "YMED Coco Nutrição 300ml",
+      "category": "shampoo",
+      "abc_class": "A",
+      "total_revenue_2025": 74682.3,
+      "revenue_share_pct": 1.98
+    },
+    {
+      "product_id": "P012",
+      "name": "YMED Neutro Sensitivo 200g",
+      "category": "sabonete",
+      "abc_class": "A",
+      "total_revenue_2025": 74098.5,
+      "revenue_share_pct": 1.96
+    },
+    {
+      "product_id": "P009",
+      "name": "YMED Lavanda Premium 200g",
+      "category": "sabonete",
+      "abc_class": "A",
+      "total_revenue_2025": 73981.5,
+      "revenue_share_pct": 1.96
+    },
+    {
+      "product_id": "P033",
+      "name": "YMED Rosa Premium Brilho 400ml",
+      "category": "shampoo",
+      "abc_class": "A",
+      "total_revenue_2025": 73623.5,
+      "revenue_share_pct": 1.95
+    },
+    {
+      "product_id": "P037",
+      "name": "YMED Coco Suave 300ml",
+      "category": "shampoo",
+      "abc_class": "A",
+      "total_revenue_2025": 72995.1,
+      "revenue_share_pct": 1.93
+    },
+    {
+      "product_id": "P036",
+      "name": "YMED Hortelã Sport 400ml",
+      "category": "shampoo",
+      "abc_class": "B",
+      "total_revenue_2025": 69881.5,
+      "revenue_share_pct": 1.85
+    },
+    {
+      "product_id": "P047",
+      "name": "YMED Coco 500ml",
+      "category": "detergente",
+      "abc_class": "B",
+      "total_revenue_2025": 67951.0,
+      "revenue_share_pct": 1.8
+    },
+    {
+      "product_id": "P045",
+      "name": "YMED Lavanda 500ml",
+      "category": "detergente",
+      "abc_class": "B",
+      "total_revenue_2025": 67646.4,
+      "revenue_share_pct": 1.79
+    },
+    {
+      "product_id": "P010",
+      "name": "YMED Rosa Pétala 150g",
+      "category": "sabonete",
+      "abc_class": "B",
+      "total_revenue_2025": 64527.2,
+      "revenue_share_pct": 1.71
+    },
+    {
+      "product_id": "P015",
+      "name": "YMED Erva-Doce Suave 90g",
+      "category": "sabonete",
+      "abc_class": "B",
+      "total_revenue_2025": 64488.9,
+      "revenue_share_pct": 1.71
+    },
+    {
+      "product_id": "P041",
+      "name": "YMED Coco Biodegradável 500ml",
+      "category": "detergente",
+      "abc_class": "B",
+      "total_revenue_2025": 62252.0,
+      "revenue_share_pct": 1.65
+    },
+    {
+      "product_id": "P027",
+      "name": "YMED Neutro Sensitivo 200ml",
+      "category": "shampoo",
+      "abc_class": "B",
+      "total_revenue_2025": 61765.2,
+      "revenue_share_pct": 1.63
+    },
+    {
+      "product_id": "P008",
+      "name": "YMED Aloe Vera Refrescante 90g",
+      "category": "sabonete",
+      "abc_class": "B",
+      "total_revenue_2025": 58058.0,
+      "revenue_share_pct": 1.54
+    },
+    {
+      "product_id": "P034",
+      "name": "YMED Bebê Camomila 200ml",
+      "category": "shampoo",
+      "abc_class": "B",
+      "total_revenue_2025": 54091.8,
+      "revenue_share_pct": 1.43
+    },
+    {
+      "product_id": "P050",
+      "name": "YMED Neutro Bebê 500ml",
+      "category": "detergente",
+      "abc_class": "B",
+      "total_revenue_2025": 53257.6,
+      "revenue_share_pct": 1.41
+    },
+    {
+      "product_id": "P004",
+      "name": "YMED Antibacteriano Hortelã 90g",
+      "category": "sabonete",
+      "abc_class": "B",
+      "total_revenue_2025": 52992.5,
+      "revenue_share_pct": 1.4
+    },
+    {
+      "product_id": "P038",
+      "name": "YMED Neutro Bebê 200ml",
+      "category": "shampoo",
+      "abc_class": "B",
+      "total_revenue_2025": 50391.8,
+      "revenue_share_pct": 1.33
+    },
+    {
+      "product_id": "P018",
+      "name": "YMED Rosa Premium 150g",
+      "category": "sabonete",
+      "abc_class": "B",
+      "total_revenue_2025": 49799.0,
+      "revenue_share_pct": 1.32
+    },
+    {
+      "product_id": "P011",
+      "name": "YMED Coco Antibacteriano 90g",
+      "category": "sabonete",
+      "abc_class": "C",
+      "total_revenue_2025": 47171.4,
+      "revenue_share_pct": 1.25
+    },
+    {
+      "product_id": "P017",
+      "name": "YMED Lavanda Antibacteriano 90g",
+      "category": "sabonete",
+      "abc_class": "C",
+      "total_revenue_2025": 46099.8,
+      "revenue_share_pct": 1.22
+    },
+    {
+      "product_id": "P007",
+      "name": "YMED Erva-Doce Premium 150g",
+      "category": "sabonete",
+      "abc_class": "C",
+      "total_revenue_2025": 46036.0,
+      "revenue_share_pct": 1.22
+    },
+    {
+      "product_id": "P003",
+      "name": "YMED Coco Nutritivo 150g",
+      "category": "sabonete",
+      "abc_class": "C",
+      "total_revenue_2025": 43221.6,
+      "revenue_share_pct": 1.14
+    },
+    {
+      "product_id": "P013",
+      "name": "YMED Hortelã Sport 90g",
+      "category": "sabonete",
+      "abc_class": "C",
+      "total_revenue_2025": 42633.4,
+      "revenue_share_pct": 1.13
+    },
+    {
+      "product_id": "P002",
+      "name": "YMED Rosa Suave 90g",
+      "category": "sabonete",
+      "abc_class": "C",
+      "total_revenue_2025": 42239.4,
+      "revenue_share_pct": 1.12
+    },
+    {
+      "product_id": "P001",
+      "name": "YMED Lavanda Hidratante 90g",
+      "category": "sabonete",
+      "abc_class": "C",
+      "total_revenue_2025": 40648.5,
+      "revenue_share_pct": 1.08
+    },
+    {
+      "product_id": "P020",
+      "name": "YMED Neutro pH5 Bebê 80g",
+      "category": "sabonete",
+      "abc_class": "C",
+      "total_revenue_2025": 35041.5,
+      "revenue_share_pct": 0.93
+    },
+    {
+      "product_id": "P014",
+      "name": "YMED Camomila Bebê 80g",
+      "category": "sabonete",
+      "abc_class": "C",
+      "total_revenue_2025": 34617.6,
+      "revenue_share_pct": 0.92
+    },
+    {
+      "product_id": "P006",
+      "name": "YMED Neutro Sem Perfume 90g",
+      "category": "sabonete",
+      "abc_class": "C",
+      "total_revenue_2025": 18684.6,
+      "revenue_share_pct": 0.49
+    }
+  ],
+  "top_products": [
+    {
+      "product_id": "P039",
+      "name": "YMED Neutro 500ml",
+      "category": "detergente",
+      "total_sales_2025": 13459,
+      "total_revenue_2025": 79408.1,
+      "price_brl": 5.9
+    },
+    {
+      "product_id": "P015",
+      "name": "YMED Erva-Doce Suave 90g",
+      "category": "sabonete",
+      "total_sales_2025": 13161,
+      "total_revenue_2025": 64488.9,
+      "price_brl": 4.9
+    },
+    {
+      "product_id": "P040",
+      "name": "YMED Limão 500ml",
+      "category": "detergente",
+      "total_sales_2025": 12610,
+      "total_revenue_2025": 78182.0,
+      "price_brl": 6.2
+    },
+    {
+      "product_id": "P042",
+      "name": "YMED Limão Concentrado 1000ml",
+      "category": "detergente",
+      "total_sales_2025": 11319,
+      "total_revenue_2025": 123377.1,
+      "price_brl": 10.9
+    },
+    {
+      "product_id": "P008",
+      "name": "YMED Aloe Vera Refrescante 90g",
+      "category": "sabonete",
+      "total_sales_2025": 11165,
+      "total_revenue_2025": 58058.0,
+      "price_brl": 5.2
+    },
+    {
+      "product_id": "P047",
+      "name": "YMED Coco 500ml",
+      "category": "detergente",
+      "total_sales_2025": 10454,
+      "total_revenue_2025": 67951.0,
+      "price_brl": 6.5
+    },
+    {
+      "product_id": "P005",
+      "name": "YMED Camomila Suave 200g",
+      "category": "sabonete",
+      "total_sales_2025": 10430,
+      "total_revenue_2025": 103257.0,
+      "price_brl": 9.9
+    },
+    {
+      "product_id": "P019",
+      "name": "YMED Coco Hidratante 200g",
+      "category": "sabonete",
+      "total_sales_2025": 10319,
+      "total_revenue_2025": 122796.1,
+      "price_brl": 11.9
+    },
+    {
+      "product_id": "P002",
+      "name": "YMED Rosa Suave 90g",
+      "category": "sabonete",
+      "total_sales_2025": 10057,
+      "total_revenue_2025": 42239.4,
+      "price_brl": 4.2
+    },
+    {
+      "product_id": "P043",
+      "name": "YMED Antibacteriano 500ml",
+      "category": "detergente",
+      "total_sales_2025": 10033,
+      "total_revenue_2025": 75247.5,
+      "price_brl": 7.5
+    }
+  ],
+  "category_revenue": {
+    "detergente": 975322.6,
+    "sabonete": 1143564.3,
+    "shampoo": 1660554.9
+  },
+  "category_units": {
+    "detergente": 115996,
+    "sabonete": 156276,
+    "shampoo": 90551
+  },
+  "category_products_count": {
+    "detergente": 12,
+    "sabonete": 20,
+    "shampoo": 18
+  },
+  "ph_vs_sales": [
+    {
+      "ph_range": "4.0–5.0",
+      "avg_sales": 5115
+    },
+    {
+      "ph_range": "5.0–6.0",
+      "avg_sales": 6956
+    },
+    {
+      "ph_range": "6.0–7.0",
+      "avg_sales": 8987
+    },
+    {
+      "ph_range": "7.0–8.0",
+      "avg_sales": 9784
+    },
+    {
+      "ph_range": "8.0–9.5",
+      "avg_sales": 9454
+    }
+  ],
+  "fragrance_share": [
+    {
+      "fragrance": "Sem Perfume",
+      "total_units": 63781,
+      "pct": 17.6
+    },
+    {
+      "fragrance": "Lavanda",
+      "total_units": 56147,
+      "pct": 15.5
+    },
+    {
+      "fragrance": "Coco",
+      "total_units": 55855,
+      "pct": 15.4
+    },
+    {
+      "fragrance": "Limão",
+      "total_units": 40645,
+      "pct": 11.2
+    },
+    {
+      "fragrance": "Hortelã",
+      "total_units": 37428,
+      "pct": 10.3
+    },
+    {
+      "fragrance": "Rosa",
+      "total_units": 32945,
+      "pct": 9.1
+    },
+    {
+      "fragrance": "Aloe Vera",
+      "total_units": 27534,
+      "pct": 7.6
+    },
+    {
+      "fragrance": "Camomila",
+      "total_units": 25109,
+      "pct": 6.9
+    },
+    {
+      "fragrance": "Erva-Doce",
+      "total_units": 23379,
+      "pct": 6.4
+    }
+  ],
+  "cost_benefit": [
+    {
+      "product_id": "P044",
+      "name": "YMED Neutro Concentrado 1000ml",
+      "category": "detergente",
+      "price_brl": 9.9,
+      "weight_g": 1040,
+      "price_per_gram": 0.0095,
+      "total_sales_2025": 8770
+    },
+    {
+      "product_id": "P042",
+      "name": "YMED Limão Concentrado 1000ml",
+      "category": "detergente",
+      "price_brl": 10.9,
+      "weight_g": 1040,
+      "price_per_gram": 0.0105,
+      "total_sales_2025": 11319
+    },
+    {
+      "product_id": "P039",
+      "name": "YMED Neutro 500ml",
+      "category": "detergente",
+      "price_brl": 5.9,
+      "weight_g": 520,
+      "price_per_gram": 0.0113,
+      "total_sales_2025": 13459
+    },
+    {
+      "product_id": "P048",
+      "name": "YMED Antibacteriano Limão 1000ml",
+      "category": "detergente",
+      "price_brl": 11.9,
+      "weight_g": 1040,
+      "price_per_gram": 0.0114,
+      "total_sales_2025": 9454
+    },
+    {
+      "product_id": "P040",
+      "name": "YMED Limão 500ml",
+      "category": "detergente",
+      "price_brl": 6.2,
+      "weight_g": 520,
+      "price_per_gram": 0.0119,
+      "total_sales_2025": 12610
+    },
+    {
+      "product_id": "P046",
+      "name": "YMED Limão Premium 1000ml",
+      "category": "detergente",
+      "price_brl": 12.9,
+      "weight_g": 1040,
+      "price_per_gram": 0.0124,
+      "total_sales_2025": 7262
+    },
+    {
+      "product_id": "P047",
+      "name": "YMED Coco 500ml",
+      "category": "detergente",
+      "price_brl": 6.5,
+      "weight_g": 520,
+      "price_per_gram": 0.0125,
+      "total_sales_2025": 10454
+    },
+    {
+      "product_id": "P045",
+      "name": "YMED Lavanda 500ml",
+      "category": "detergente",
+      "price_brl": 6.8,
+      "weight_g": 520,
+      "price_per_gram": 0.0131,
+      "total_sales_2025": 9948
+    },
+    {
+      "product_id": "P043",
+      "name": "YMED Antibacteriano 500ml",
+      "category": "detergente",
+      "price_brl": 7.5,
+      "weight_g": 520,
+      "price_per_gram": 0.0144,
+      "total_sales_2025": 10033
+    },
+    {
+      "product_id": "P041",
+      "name": "YMED Coco Biodegradável 500ml",
+      "category": "detergente",
+      "price_brl": 7.9,
+      "weight_g": 520,
+      "price_per_gram": 0.0152,
+      "total_sales_2025": 7880
+    },
+    {
+      "product_id": "P049",
+      "name": "YMED Biodegradável Lavanda 500ml",
+      "category": "detergente",
+      "price_brl": 8.5,
+      "weight_g": 520,
+      "price_per_gram": 0.0163,
+      "total_sales_2025": 8823
+    },
+    {
+      "product_id": "P050",
+      "name": "YMED Neutro Bebê 500ml",
+      "category": "detergente",
+      "price_brl": 8.9,
+      "weight_g": 520,
+      "price_per_gram": 0.0171,
+      "total_sales_2025": 5984
+    },
+    {
+      "product_id": "P036",
+      "name": "YMED Hortelã Sport 400ml",
+      "category": "shampoo",
+      "price_brl": 16.9,
+      "weight_g": 415,
+      "price_per_gram": 0.0407,
+      "total_sales_2025": 4135
+    },
+    {
+      "product_id": "P006",
+      "name": "YMED Neutro Sem Perfume 90g",
+      "category": "sabonete",
+      "price_brl": 3.8,
+      "weight_g": 90,
+      "price_per_gram": 0.0422,
+      "total_sales_2025": 4917
+    },
+    {
+      "product_id": "P026",
+      "name": "YMED Rosa Brilho 400ml",
+      "category": "shampoo",
+      "price_brl": 17.9,
+      "weight_g": 415,
+      "price_per_gram": 0.0431,
+      "total_sales_2025": 6263
+    },
+    {
+      "product_id": "P025",
+      "name": "YMED Camomila Suave 300ml",
+      "category": "shampoo",
+      "price_brl": 13.9,
+      "weight_g": 310,
+      "price_per_gram": 0.0448,
+      "total_sales_2025": 6469
+    },
+    {
+      "product_id": "P022",
+      "name": "YMED Anticaspa Hortelã 400ml",
+      "category": "shampoo",
+      "price_brl": 18.9,
+      "weight_g": 415,
+      "price_per_gram": 0.0455,
+      "total_sales_2025": 7756
+    },
+    {
+      "product_id": "P003",
+      "name": "YMED Coco Nutritivo 150g",
+      "category": "sabonete",
+      "price_brl": 6.9,
+      "weight_g": 150,
+      "price_per_gram": 0.046,
+      "total_sales_2025": 6264
+    },
+    {
+      "product_id": "P002",
+      "name": "YMED Rosa Suave 90g",
+      "category": "sabonete",
+      "price_brl": 4.2,
+      "weight_g": 90,
+      "price_per_gram": 0.0467,
+      "total_sales_2025": 10057
+    },
+    {
+      "product_id": "P021",
+      "name": "YMED Lavanda Hidratação 300ml",
+      "category": "shampoo",
+      "price_brl": 14.9,
+      "weight_g": 310,
+      "price_per_gram": 0.0481,
+      "total_sales_2025": 5908
+    },
+    {
+      "product_id": "P037",
+      "name": "YMED Coco Suave 300ml",
+      "category": "shampoo",
+      "price_brl": 14.9,
+      "weight_g": 310,
+      "price_per_gram": 0.0481,
+      "total_sales_2025": 4899
+    },
+    {
+      "product_id": "P005",
+      "name": "YMED Camomila Suave 200g",
+      "category": "sabonete",
+      "price_brl": 9.9,
+      "weight_g": 200,
+      "price_per_gram": 0.0495,
+      "total_sales_2025": 10430
+    },
+    {
+      "product_id": "P001",
+      "name": "YMED Lavanda Hidratante 90g",
+      "category": "sabonete",
+      "price_brl": 4.5,
+      "weight_g": 90,
+      "price_per_gram": 0.05,
+      "total_sales_2025": 9033
+    },
+    {
+      "product_id": "P023",
+      "name": "YMED Coco Nutrição 300ml",
+      "category": "shampoo",
+      "price_brl": 15.9,
+      "weight_g": 310,
+      "price_per_gram": 0.0513,
+      "total_sales_2025": 4697
+    },
+    {
+      "product_id": "P012",
+      "name": "YMED Neutro Sensitivo 200g",
+      "category": "sabonete",
+      "price_brl": 10.5,
+      "weight_g": 200,
+      "price_per_gram": 0.0525,
+      "total_sales_2025": 7057
+    },
+    {
+      "product_id": "P010",
+      "name": "YMED Rosa Pétala 150g",
+      "category": "sabonete",
+      "price_brl": 7.9,
+      "weight_g": 150,
+      "price_per_gram": 0.0527,
+      "total_sales_2025": 8168
+    },
+    {
+      "product_id": "P015",
+      "name": "YMED Erva-Doce Suave 90g",
+      "category": "sabonete",
+      "price_brl": 4.9,
+      "weight_g": 90,
+      "price_per_gram": 0.0544,
+      "total_sales_2025": 13161
+    },
+    {
+      "product_id": "P029",
+      "name": "YMED Erva-Doce Volume 300ml",
+      "category": "shampoo",
+      "price_brl": 16.9,
+      "weight_g": 310,
+      "price_per_gram": 0.0545,
+      "total_sales_2025": 4802
+    },
+    {
+      "product_id": "P033",
+      "name": "YMED Rosa Premium Brilho 400ml",
+      "category": "shampoo",
+      "price_brl": 22.9,
+      "weight_g": 415,
+      "price_per_gram": 0.0552,
+      "total_sales_2025": 3215
+    },
+    {
+      "product_id": "P007",
+      "name": "YMED Erva-Doce Premium 150g",
+      "category": "sabonete",
+      "price_brl": 8.5,
+      "weight_g": 150,
+      "price_per_gram": 0.0567,
+      "total_sales_2025": 5416
+    },
+    {
+      "product_id": "P008",
+      "name": "YMED Aloe Vera Refrescante 90g",
+      "category": "sabonete",
+      "price_brl": 5.2,
+      "weight_g": 90,
+      "price_per_gram": 0.0578,
+      "total_sales_2025": 11165
+    },
+    {
+      "product_id": "P019",
+      "name": "YMED Coco Hidratante 200g",
+      "category": "sabonete",
+      "price_brl": 11.9,
+      "weight_g": 200,
+      "price_per_gram": 0.0595,
+      "total_sales_2025": 10319
+    },
+    {
+      "product_id": "P030",
+      "name": "YMED Coco Premium 400ml",
+      "category": "shampoo",
+      "price_brl": 24.9,
+      "weight_g": 415,
+      "price_per_gram": 0.06,
+      "total_sales_2025": 3209
+    },
+    {
+      "product_id": "P028",
+      "name": "YMED Anticaspa Intensivo 400ml",
+      "category": "shampoo",
+      "price_brl": 24.9,
+      "weight_g": 415,
+      "price_per_gram": 0.06,
+      "total_sales_2025": 8676
+    },
+    {
+      "product_id": "P017",
+      "name": "YMED Lavanda Antibacteriano 90g",
+      "category": "sabonete",
+      "price_brl": 5.4,
+      "weight_g": 90,
+      "price_per_gram": 0.06,
+      "total_sales_2025": 8537
+    },
+    {
+      "product_id": "P004",
+      "name": "YMED Antibacteriano Hortelã 90g",
+      "category": "sabonete",
+      "price_brl": 5.5,
+      "weight_g": 90,
+      "price_per_gram": 0.0611,
+      "total_sales_2025": 9635
+    },
+    {
+      "product_id": "P027",
+      "name": "YMED Neutro Sensitivo 200ml",
+      "category": "shampoo",
+      "price_brl": 12.9,
+      "weight_g": 210,
+      "price_per_gram": 0.0614,
+      "total_sales_2025": 4788
+    },
+    {
+      "product_id": "P018",
+      "name": "YMED Rosa Premium 150g",
+      "category": "sabonete",
+      "price_brl": 9.5,
+      "weight_g": 150,
+      "price_per_gram": 0.0633,
+      "total_sales_2025": 5242
+    },
+    {
+      "product_id": "P031",
+      "name": "YMED Lavanda Reconstrução 300ml",
+      "category": "shampoo",
+      "price_brl": 19.9,
+      "weight_g": 310,
+      "price_per_gram": 0.0642,
+      "total_sales_2025": 3812
+    },
+    {
+      "product_id": "P011",
+      "name": "YMED Coco Antibacteriano 90g",
+      "category": "sabonete",
+      "price_brl": 5.8,
+      "weight_g": 90,
+      "price_per_gram": 0.0644,
+      "total_sales_2025": 8133
+    },
+    {
+      "product_id": "P009",
+      "name": "YMED Lavanda Premium 200g",
+      "category": "sabonete",
+      "price_brl": 12.9,
+      "weight_g": 200,
+      "price_per_gram": 0.0645,
+      "total_sales_2025": 5735
+    },
+    {
+      "product_id": "P013",
+      "name": "YMED Hortelã Sport 90g",
+      "category": "sabonete",
+      "price_brl": 5.9,
+      "weight_g": 90,
+      "price_per_gram": 0.0656,
+      "total_sales_2025": 7226
+    },
+    {
+      "product_id": "P038",
+      "name": "YMED Neutro Bebê 200ml",
+      "category": "shampoo",
+      "price_brl": 14.9,
+      "weight_g": 210,
+      "price_per_gram": 0.071,
+      "total_sales_2025": 3382
+    },
+    {
+      "product_id": "P032",
+      "name": "YMED Aloe Vera Hidratação 250ml",
+      "category": "shampoo",
+      "price_brl": 18.9,
+      "weight_g": 260,
+      "price_per_gram": 0.0727,
+      "total_sales_2025": 6107
+    },
+    {
+      "product_id": "P016",
+      "name": "YMED Aloe Vera Premium 200g",
+      "category": "sabonete",
+      "price_brl": 14.9,
+      "weight_g": 200,
+      "price_per_gram": 0.0745,
+      "total_sales_2025": 5582
+    },
+    {
+      "product_id": "P034",
+      "name": "YMED Bebê Camomila 200ml",
+      "category": "shampoo",
+      "price_brl": 15.9,
+      "weight_g": 210,
+      "price_per_gram": 0.0757,
+      "total_sales_2025": 3402
+    },
+    {
+      "product_id": "P035",
+      "name": "YMED Sem Sal Lavanda 250ml",
+      "category": "shampoo",
+      "price_brl": 20.9,
+      "weight_g": 260,
+      "price_per_gram": 0.0804,
+      "total_sales_2025": 4351
+    },
+    {
+      "product_id": "P020",
+      "name": "YMED Neutro pH5 Bebê 80g",
+      "category": "sabonete",
+      "price_brl": 6.5,
+      "weight_g": 80,
+      "price_per_gram": 0.0812,
+      "total_sales_2025": 5391
+    },
+    {
+      "product_id": "P024",
+      "name": "YMED Sem Sal Aloe Vera 250ml",
+      "category": "shampoo",
+      "price_brl": 22.9,
+      "weight_g": 260,
+      "price_per_gram": 0.0881,
+      "total_sales_2025": 4680
+    },
+    {
+      "product_id": "P014",
+      "name": "YMED Camomila Bebê 80g",
+      "category": "sabonete",
+      "price_brl": 7.2,
+      "weight_g": 80,
+      "price_per_gram": 0.09,
+      "total_sales_2025": 4808
+    }
+  ]
+}
