@@ -117,3 +117,105 @@ export interface Message {
   chartData?: unknown;
   isLoading?: boolean;
 }
+
+// ── Dashboard de produto (drill-down por SKU) ────────────────────────────────
+export interface ProductListItem {
+  product_id: string;
+  name: string;
+  category: string;
+}
+
+export interface ProductKpis {
+  total_units_2025: number;
+  total_revenue_2025: number;
+  avg_monthly_units: number;
+  best_month: string;
+  best_month_units: number;
+  price_brl: number;
+  cost_brl: number;
+  margin_pct: number;
+  profit_per_unit: number;
+  price_per_gram: number;
+  abc_class: "A" | "B" | "C" | null;
+  revenue_share_pct: number | null;
+  rank_revenue: number | null;
+  total_ranked: number;
+  forecast_q1_2026_units: number;
+  trend_pct: number | null;
+}
+
+export interface ProductMonthPoint {
+  month: string;
+  sales: number;
+  kind: "real" | "forecast";
+}
+
+export interface ProductDetail {
+  product_id: string;
+  name: string;
+  category: string;
+  sub_category: string;
+  fragrance: string;
+  ph_level: number;
+  size_ml_or_g: number;
+}
+
+export interface ProductAnalytics {
+  product: ProductDetail;
+  kpis: ProductKpis;
+  series: ProductMonthPoint[];
+  insight: string;
+}
+
+// ── Cérebro Corporativo (RAG sobre documentos internos) ──────────────────────
+export interface CorporateChunk {
+  id: string;
+  source: string;
+  page: number;
+  text: string;
+}
+
+export interface CorporateKnowledge {
+  generatedAt: string;
+  sources: string[];
+  chunkCount: number;
+  chunks: CorporateChunk[];
+}
+
+export interface RetrievedChunk extends CorporateChunk {
+  score: number;
+}
+
+export interface CorporateSourceRef {
+  source: string;
+  page: number;
+}
+
+export interface CorporateAnswer {
+  answer: string;
+  sources: CorporateSourceRef[];
+}
+
+// ── Geração de propostas comerciais (PDF) ────────────────────────────────────
+export interface ProposalSection {
+  heading: string;
+  body: string;
+}
+
+export interface ProposalPricingItem {
+  item: string;
+  detail?: string;
+  price: string;
+}
+
+export interface Proposal {
+  title: string;
+  client: string;
+  date: string;
+  intro: string;
+  sections: ProposalSection[];
+  pricing: ProposalPricingItem[];
+  validity: string;
+  closing: string;
+  sources: string[];
+}
