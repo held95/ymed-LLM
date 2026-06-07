@@ -25,7 +25,14 @@ export async function POST(req: NextRequest) {
       total_units_2025: forecasts.summary.total_units_2025,
     };
 
-    const userMessage = `PERGUNTA: ${question.text}
+    // A resposta textual depende da IA; o gráfico e os dados, não.
+    // Se a chave de API estiver ausente ou a chamada falhar, degradamos
+    // graciosamente: devolvemos o gráfico + um texto de apoio em vez de erro 500.
+    let answer = "";
+
+    if (process.env.ANTHROPIC_API_KEY) {
+      try {
+        const userMessage = `PERGUNTA: ${question.text}
 
 CONTEXTO GERAL DA YMED 2025:
 ${JSON.stringify(summaryContext, null, 2)}
@@ -33,17 +40,25 @@ ${JSON.stringify(summaryContext, null, 2)}
 DADOS RELEVANTES:
 ${JSON.stringify(dataSlice, null, 2)}`;
 
-    const client = getAnthropicClient();
-    const response = await client.messages.create({
-      model: "claude-haiku-4-5-20251001",
-      max_tokens: 450,
-      temperature: 0.1,
-      system: SYSTEM_PROMPT,
-      messages: [{ role: "user", content: userMessage }],
-    });
+        const client = getAnthropicClient();
+        const response = await client.messages.create({
+          model: "claude-haiku-4-5-20251001",
+          max_tokens: 450,
+          temperature: 0.1,
+          system: SYSTEM_PROMPT,
+          messages: [{ role: "user", content: userMessage }],
+        });
 
-    const answer =
-      response.content[0].type === "text" ? response.content[0].text : "";
+        answer =
+          response.content[0].type === "text" ? response.content[0].text : "";
+      } catch (aiErr) {
+        console.error("[/api/chat] AI call failed, degrading gracefully:", aiErr);
+      }
+    }
+
+    if (!answer) {
+      answer = `⚠️ A resposta gerada por IA está indisponível no momento — defina a variável de ambiente ANTHROPIC_API_KEY (veja .env.example) para habilitá-la. Os dados e o gráfico abaixo continuam disponíveis.\n\n${question.description}`;
+    }
 
     return NextResponse.json({
       answer,
